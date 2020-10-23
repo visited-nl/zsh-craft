@@ -18,7 +18,7 @@ If you're using [oh-my-zsh](github.com/robbyrussell/oh-my-zsh):
 
 3. Edit your `~/.zshrc` and add `zsh-craft` – same as clone directory – to the list of plugins to enable:
 
-    `plugins=( ... craft )`
+    `plugins=( ... zsh-craft )`
 
 4. Then, restart your terminal application to **refresh context** and use the plugin. Alternatively, you can source your current shell configuration:
 

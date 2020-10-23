@@ -14,9 +14,9 @@ If you're using [oh-my-zsh](github.com/robbyrussell/oh-my-zsh):
 
 2. Clone the repository into a new `git-extra-commands` directory:
 
-    `git clone https://github.com/visited-nl/craft-plugin-zsh.git craft-plugin-zsh`
+    `git clone https://github.com/visited-nl/zsh-craft.git zsh-craft`
 
-3. Edit your `~/.zshrc` and add `craft-plugin-zsh` – same as clone directory – to the list of plugins to enable:
+3. Edit your `~/.zshrc` and add `zsh-craft` – same as clone directory – to the list of plugins to enable:
 
     `plugins=( ... craft )`
 

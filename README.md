@@ -2,10 +2,28 @@
 
 Adds autocomplete for the Craftcms cli.
 
-To use it, add `craft` to the plugins array in your zshrc file:
+## Install
 
-```zsh
-plugins=(... craft)
-```
+### oh-my-zsh
 
+If you're using [oh-my-zsh](github.com/robbyrussell/oh-my-zsh):
+
+1. In the command line, change to _oh-my-zsh_'s custom plugin directory :
+
+    `cd ~/.oh-my-zsh/custom/plugins/`
+
+2. Clone the repository into a new `git-extra-commands` directory:
+
+    `git clone https://github.com/visited-nl/craft-plugin-zsh.git craft-plugin-zsh`
+
+3. Edit your `~/.zshrc` and add `craft-plugin-zsh` – same as clone directory – to the list of plugins to enable:
+
+    `plugins=( ... craft )`
+
+4. Then, restart your terminal application to **refresh context** and use the plugin. Alternatively, you can source your current shell configuration:
+
+    `source ~/.zshrc`
+
+
+## Thanks
 Based on: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/yii2
